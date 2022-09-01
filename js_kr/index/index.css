@@ -1,0 +1,47 @@
+.main {
+    margin: 0 auto;
+    width: 1320px;
+    display: grid;
+    grid-template-columns:repeat(2, 500px);
+    grid-gap: 10px;
+    padding: 10px 15px;
+
+}
+.bloc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: calc(25% - 101px);
+    margin-right: calc(25% - 101px);
+    background: darkseagreen;
+    font-size: 40px;
+}
+
+.user_details{
+    width: 100%;
+    background: darkseagreen;
+    display: flex;
+    flex-direction: column;
+}
+.user_details button, .user button, .post_details button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    background: gray;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+
+
+}
